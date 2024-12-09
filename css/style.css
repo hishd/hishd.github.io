@@ -105,6 +105,7 @@ a:focus {
   0% {
     -webkit-transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
   }
@@ -114,6 +115,7 @@ a:focus {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -809,6 +811,15 @@ a:focus {
   .service .service-text p {
     font-size: 14px;
   }
+}
+
+/*******************************/
+/******** Releases CSS ********/
+/*******************************/
+
+.releases img {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /*******************************/
